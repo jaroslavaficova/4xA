@@ -1,0 +1,148 @@
+body {
+    font-family: 'Playfair Display';
+	font-size: 12px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hide horizontal overflow */
+	background-color: #17191d;
+}
+
+header {
+    background-color: #17191d;
+    color: #eff0f2;
+    text-align: center;
+    /*padding: 1em;*/
+	font-family: 'Playfair Display';
+	font-size: 48px;
+	margin-top: 15px;
+}
+
+footer {
+    background-color: #17191d;
+    color: #eff0f2;
+    text-align: center;
+    padding: 1em;
+	font-family: 'Playfair Display';
+	font-size: 12px;
+}
+
+main {
+    padding: 20px;
+	background-color: #17191d;
+	max-width: 1010px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the container */
+}
+
+.grid-container-pd {
+    /*overflow-x: auto; /* Enable horizontal scrolling for the grid container */
+    /*white-space: nowrap;  Prevent grid items from wrapping to a new line */
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+
+}
+
+.grid-container-pp {
+    /*overflow-x: auto; /* Enable horizontal scrolling for the grid container */
+    /*white-space: nowrap;  Prevent grid items from wrapping to a new line */
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+
+}
+.grid-container-xy {
+    /*overflow-x: auto; /* Enable horizontal scrolling for the grid container */
+    /*white-space: nowrap;  Prevent grid items from wrapping to a new line */
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+    gap: 20px; /* Adjust the gap between grid items */
+
+}
+
+
+.grid-item-pd {
+	display: inline-block;
+    max-width: 200px; /* Set a maximum width for each grid item */
+    flex: 0 0 auto; /* Make sure each grid item has a fixed size */
+    /*border: 1px solid #ccc;*/
+    padding: 20px;
+    margin-right: 15px; /* Add space between grid items */
+	margin-bottom: 20px;
+	margin-top: 20px;
+	/*background-color: #122c6e;*/
+	background: linear-gradient(45deg, #1f2126, #282b31);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.grid-item-pd p {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto 15px; /* Add margin at the bottom of the paragraph */
+	text-align: center;
+	color: #eff0f2;
+}
+
+
+.grid-item-pd a {
+    display: block; /* Make the link a block-level element to control its size and spacing */
+    margin-top: 10px; /* Add margin at the top of the link */
+    text-decoration: none; /* Remove underline from the link */
+    color: #eff0f2; /* Adjust link color */
+}
+
+.grid-item-pp {
+	display: inline-block;
+    max-width: 200px; /* Set a maximum width for each grid item */
+    flex: 0 0 auto; /* Make sure each grid item has a fixed size */
+    /*border: 1px solid #ccc;*/
+    padding: 20px;
+    margin-right: 15px; /* Add space between grid items */
+	margin-bottom: 20px;
+	margin-top: 20px;
+	/*background-color: #122c6e;*/
+	background: linear-gradient(45deg, #1f2126, #282b31);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.grid-item-pp p {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto 15px; /* Add margin at the bottom of the paragraph */
+	text-align: center;
+	color: #eff0f2;
+}
+
+
+.grid-item-pp a {
+    display: block; /* Make the link a block-level element to control its size and spacing */
+    margin-top: 10px; /* Add margin at the top of the link */
+    text-decoration: none; /* Remove underline from the link */
+    color: #eff0f2; /* Adjust link color */
+}
+
+.grid-item-xy {
+	display: inline-block;
+    max-width: 200px; /* Set a maximum width for each grid item */
+    flex: 0 0 auto; /* Make sure each grid item has a fixed size */
+    /*border: 1px solid #ccc;*/
+    padding: 20px;
+    margin-right: 15px; /* Add space between grid items */
+	margin-bottom: 20px;
+	margin-top: 20px;
+	/*background-color: #122c6e;*/
+	background: linear-gradient(45deg, #1f2126, #282b31);
+	border-radius: 10px 10px 10px 10px;
+}
+
+.grid-item-xy p {
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto 15px; /* Add margin at the bottom of the paragraph */
+	text-align: center;
+	color: #eff0f2;
+}
+
+
+.grid-item-xy a {
+    display: block; /* Make the link a block-level element to control its size and spacing */
+    margin-top: 10px; /* Add margin at the top of the link */
+    text-decoration: none; /* Remove underline from the link */
+    color: #eff0f2; /* Adjust link color */
+}
