@@ -62,7 +62,7 @@ main {
 
 .grid-item-pd {
     display: flex;
-    max-width: 200px; /* Set a maximum width for each grid item */
+    max-width: 300px; /* Set a maximum width for each grid item */
     flex: 0 0 auto; /* Make sure each grid item has a fixed size */
     padding: 20px;
     background: linear-gradient(45deg, #1f2126, #282b31);
