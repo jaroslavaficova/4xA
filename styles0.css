@@ -34,12 +34,11 @@ main {
 }
 
 .grid-container-pd {
-    /*overflow-x: auto; /* Enable horizontal scrolling for the grid container */
-    /*white-space: nowrap;  Prevent grid items from wrapping to a new line */
-	display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
-    gap: 20px; /* Adjust the gap between grid items */
-
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    gap: 15px; /* Adjust the space between the items */
+    padding: 20px; /* Optional: add padding around the container */
 }
 
 .grid-container-pp {
