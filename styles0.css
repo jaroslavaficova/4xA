@@ -72,15 +72,16 @@ main {
 .grid-item-pd p {
     width: 70%; /* Adjust the width as needed */
     margin: 0 auto 15px; /* Add margin at the bottom of the paragraph */
-	text-align: center;
-	color: #eff0f2;
+    text-align: center;
+    color: #eff0f2;
 }
 
 
 .grid-item-pd a {
-    display: block; /* Make the link a block-level element to control its size and spacing */
+    /*display: block; /* Make the link a block-level element to control its size and spacing */
     margin-top: 10px; /* Add margin at the top of the link */
     text-decoration: none; /* Remove underline from the link */
+    text-align: center;
     color: #eff0f2; /* Adjust link color */
 }
 
