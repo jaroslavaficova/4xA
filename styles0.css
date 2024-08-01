@@ -10,8 +10,9 @@ html, body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Changed from center to flex-start */
     align-items: center;
+    overflow-x: hidden; /* Ensure no horizontal overflow */
 }
 
 
@@ -97,5 +98,13 @@ main {
     .grid-item-home {
         width: 100%; /* Full width within the container */
         max-width: none; /* Remove the max-width restriction */
+    }
+    
+    header {
+        font-size: 36px; /* Reduce the header font size for smaller screens */
+    }
+
+    main {
+        padding: 10px; /* Reduce padding for smaller screens */
     }
 }
