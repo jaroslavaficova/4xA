@@ -12,7 +12,6 @@ html, body {
     flex-direction: column;
     justify-content: flex-start; /* Changed from center to flex-start */
     align-items: center;
-    overflow-x: hidden; /* Ensure no horizontal overflow */
 }
 
 
@@ -22,7 +21,6 @@ body {
     font-weight: normal;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Hide horizontal overflow */
     background-color: #fff;
 }
 
@@ -36,11 +34,16 @@ a {
 header {
     background-color: #fff;
     color: #000;
-    text-align: center;
+    text-align:center;
     font-family: 'Playfair Display';
     font-size: 48px;
     font-weight: normal;
     margin-top: 24px;
+}
+
+.cover-image {
+    width: 25vw; /* The image will take up 50% of the viewport width */
+    height: auto; /* Maintains the aspect ratio */
 }
 
 footer {
@@ -107,5 +110,9 @@ main {
 
     main {
         padding: 10px; /* Reduce padding for smaller screens */
+    }
+    .cover-image {
+        width: 100%; /* The image will take up 50% of the viewport width */
+        height: auto; /* Maintains the aspect ratio */
     }
 }
