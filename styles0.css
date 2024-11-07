@@ -13,7 +13,7 @@ header {
     background-color: #efe7e7;
     color: #22252a;
     text-align:center;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: normal;
     line-height: 1.2;
@@ -25,7 +25,7 @@ footer {
     color: #22252a;
     text-align: center;
     padding: 1em;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
 
@@ -38,7 +38,7 @@ main {
 
 
 .memos {
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
     /*background-color: #f5f5f5;*/
     margin: 0;
     padding: 20px;
