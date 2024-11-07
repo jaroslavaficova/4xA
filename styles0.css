@@ -53,18 +53,19 @@ main {
 .memo-container {
     max-width: 720px;
     margin: 20px auto;
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px #969698;
+    /*background-color: #ffffff;*/
+    /*border: 3px solid #969698;*/
+    /*border-radius: 10px;*/
+    /*box-shadow: 0 2px 4px #969698;*/
     padding: 20px;
 }
 
 .memo-header {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 2px solid #34373d;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+
 
 .memo-header p {
     margin: 5px 0;
@@ -78,7 +79,7 @@ main {
 }
 
 .memo-body p {
-    margin: 35px 0px 10px;
+    margin: 15px 0px 10px;
 }
 
 .memo-body p strong {
@@ -88,7 +89,7 @@ main {
 .memo-body ul {
     list-style-type: disc;
     padding-left: 40px;  /* Increased padding to indent more */
-    margin-bottom: 40px;
+    /*margin-bottom: 40px;*/
 }
 
 .memo-body ul li {
@@ -96,7 +97,7 @@ main {
 }
 
 a {
-    text-decoration: underline; /* Underline all links */
+    text-decoration: underline;
     color: inherit; /* Inherit the color from the parent element */
 }
 
