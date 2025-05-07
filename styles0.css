@@ -110,6 +110,12 @@ a {
     cursor: pointer; /* Pointer/hand icon */
 }
 
+.hero-image {
+            width: 100%;
+            height: 100%;
+            /*object-fit: cover;  This ensures the image covers the container */
+        }
+
 /* Media query for smaller screens */
 @media (max-width: 600px) {
     .memo-container {
